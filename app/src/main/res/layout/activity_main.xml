@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Themes"
         android:textAllCaps="true"
-        android:textColor="@color/colorFonte"
+        android:textColor="@color/corFonte"
         android:textSize="30sp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="20sp"
