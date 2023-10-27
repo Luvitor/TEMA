@@ -9,10 +9,18 @@
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:textColor">@color/corFonte</item>
     </style>
-    <style name="myStyle" parent="Theme.Material3.Dark.NoActionBar">
-        <item name="colorPrimary">#2c2c2c</item>
-        <item name="colorSecondary">#2e2e2e</item>
-        <item name="colorAccent">#2d2d2d</item>
+    <style name="myStyle" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#43C1FF</item>
+        <item name="colorAccent">#00FFEA</item>
+    </style>
+    <style name="mySplash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#EA5122</item>
+        <item name="colorSecondary">#6DC4F1</item>
+        <item name="colorAccent">#000000</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/black</item>
     </style>
     <style name="Theme.MyApp" parent="Base.Theme.MyApp" />
 </resources>

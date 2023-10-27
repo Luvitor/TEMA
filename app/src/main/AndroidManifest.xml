@@ -13,8 +13,13 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/mySplash"/>
+        <activity
             android:name=".LoginActivity"
-            android:exported="false" />
+            android:exported="true"
+            android:theme="@style/myStyle" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
